@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+.bg-primary
+{
+  background-color: #40699a !important;
+}
+
+.text-primary
+{
+  color: #F0F3F4 !important;
+}
+
+.btn-primary 
+{
+  background-color: #F0F3F4 !important;
+  border-color: #000000 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus
+{
+  background-color: #03625b !important; 
+}
+
+.btn-primary:active
+{
+  background-color: #d0aa01 !important;
+  border-color: #d0aa01 !important;
+}
+
+.btn-primary:focus
+{
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(127, 127, 127, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(127, 127, 127, 0.5) !important;
+}
+.navbar-customclass {
+    background-color: #2D403F;
+}
+.quien-soy{
+  background-color: #1c2026;
+}
+.proyectos{
+  background-color: #1c2026;
+}
+.btn1{
+  color:#404040 ;
+  position: relative;
+  top:  60%;
+  left: 50%;
+}
+.text01{
+
+  color:#B9D3FA ;
+
+}
+.text02{
+  color: #C7C8C8;
+}
+.titu01{
+  color: #F0F3F4 ;
+}
+.btn{
+  color: black;
+}
+
+/*--------------------------
+ESTILOS DEL DISEÑO
+---------------------------*/
+html 
+{
+  font-size: 15px;
+}
+
+body 
+{
+  color: #101f4a;
+  font-family: 'Open Sans', sans-serif;
+}
+.card{
+  background-color: #E3DFD9 ;
+
+}
+
+.card:hover
+{
+  -webkit-box-shadow: 0 0 6px #f0f0f0;
+          box-shadow: 0 0 6px #0f0f0f; 
+}
+
+/*------------------------
+SHOW DE LOS MEDIAS QUERIES
+------------------------*/
+@media (min-width: 768px) 
+{
+  html 
+  {
+    font-size: 18px; 
+  } 
+}
+/*# sourceMappingURL=estilos.css.map */
